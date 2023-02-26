@@ -1,0 +1,102 @@
+srovnani XML
+Moneta
+<transaction id="220610V0385345" other-account-number="PLATBA KARTOU V ČR" date-post="2022-06-09" date-eff="2022-06-13" var-sym="4152280774" con-sym="1178" spec-sym="" amount="-24.90" contactless="0" mobile="0" orig-ref="" date-action="" mobile-payment="0">
+	<trn-messages type="description">
+		<trn-message position="2">ALBERT VAM DEKUJE BRNO CZ</trn-message>
+	</trn-messages>
+</transaction>
+CSOB
+
+<Ntry>
+	<NtryRef>20503</NtryRef>
+	<Amt Ccy="CZK">154.90</Amt>
+	<CdtDbtInd>DBIT</CdtDbtInd>
+	<RvslInd>false</RvslInd>
+	<Sts>BOOK</Sts>
+	<BookgDt>
+		<Dt>2023-01-11</Dt>
+	</BookgDt>
+	<ValDt>
+		<Dt>2023-01-11</Dt>
+	</ValDt>
+	<BkTxCd>
+		<Prtry>
+			<Cd>30000301000</Cd>
+			<Issr>Czech Banking Association</Issr>
+		</Prtry>
+	</BkTxCd>
+	<NtryDtls>
+		<TxDtls>
+			<Refs>
+				<AcctSvcrRef>20503</AcctSvcrRef>
+			</Refs>
+			<BkTxCd>
+				<Prtry>
+					<Cd>30000301000</Cd>
+					<Issr>Czech Banking Association</Issr>
+				</Prtry>
+			</BkTxCd>
+			<RltdPties>
+				<Dbtr>
+					<Nm>Ing. PETR HYBL</Nm>
+				</Dbtr>
+				<DbtrAcct>
+					<Id>
+						<IBAN>CZ1303000000000176363702</IBAN>
+					</Id>
+					<Nm>Ing. PETR HYBL</Nm>
+				</DbtrAcct>
+			</RltdPties>
+			<RltdAgts>
+				<DbtrAgt>
+					<FinInstnId>
+						<BIC>CEKOCZPP</BIC>
+						<Nm>Ceskoslovenska obchodni banka a.s.</Nm>
+					</FinInstnId>
+				</DbtrAgt>
+			</RltdAgts>
+			<RmtInf>
+				<Ustrd>Misto: Penny Mocidla 2369 Uhersky Brod Castka: 154.9 CZK 09.01.2023</Ustrd>
+				<Strd>
+					<CdtrRefInf>
+						<Tp>
+							<CdOrPrtry>
+								<Cd>SCOR</Cd>
+							</CdOrPrtry>
+						</Tp>
+						<Ref>VS:205000010</Ref>
+					</CdtrRefInf>
+				</Strd>
+				<Strd>
+					<CdtrRefInf>
+						<Tp>
+							<CdOrPrtry>
+								<Cd>SCOR</Cd>
+							</CdOrPrtry>
+						</Tp>
+						<Ref>SS:2100889594</Ref>
+					</CdtrRefInf>
+				</Strd>
+				<Strd>
+					<CdtrRefInf>
+						<Tp>
+							<CdOrPrtry>
+								<Cd>SCOR</Cd>
+							</CdOrPrtry>
+						</Tp>
+						<Ref>KS:1178</Ref>
+					</CdtrRefInf>
+				</Strd>
+			</RmtInf>
+		</TxDtls>
+	</NtryDtls>
+</Ntry>
+
+
+KB
+"Datum splatnosti";"Datum odepsání z jiné banky";"Protiúèet a kód banky";"Název protiúètu";"Èástka";"Originální èástka";"Originální mìna";"Kurz";"VS";"KS";"SS";"Identifikace transakce";"Systémový popis";"Popis pøíkazce";"Popis pro pøíjemce";"AV pole 1";"AV pole 2";"AV pole 3";"AV pole 4";
+"31.08.2022";;"";"PLATEBNÍ KARTY VISA CZK";"-279,00";"";"";"";"10310525";"1178";"102123001";"205-31082022 1086000466429";"Mobilní platba";"20220831 PLATEBNÍ KARTY";;"KFC Uherske Hradiste               ";"Uherske Hradi              CZ   45 ";"4779 75** **** 5535        VISA    ";"29.08.2022               279,00 CZK";
+
+FIo
+"ID operace";"Datum";"Objem";"Měna";"Protiúčet";"Název protiúčtu";"Kód banky";"Název banky";"KS";"VS";"SS";"Poznámka";"Zpráva pro příjemce";"Typ";"Provedl";"Upřesnění";"Poznámka";"BIC";"ID pokynu"
+"24022016996";"01.02.2022";"-3500";"CZK";"35-1323700217";"";"0100";"Komerční banka a.s.";"";"";"";"";"";"Bezhotovostní platba";"";"";"";"";"30251738792"

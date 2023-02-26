@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="8CBz-PNe3THxaDGd3vv1" name="Page-1">
-        <mxGraphModel dx="1361" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1373" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -34,15 +34,15 @@
                     <mxGeometry x="45" y="200" width="110" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="Zanalyzovat výpis" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="640" y="155" width="110" height="70" as="geometry"/>
+                    <mxGeometry x="620" y="50" width="110" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="9" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="630" y="190" as="targetPoint"/>
+                        <mxPoint x="610" y="85" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="9" value="Umělá inteligence" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="540" y="160" width="30" height="60" as="geometry"/>
+                    <mxGeometry x="520" y="55" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="Zobrazit kategorie&lt;br&gt;utrácení" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="130" y="290" width="110" height="70" as="geometry"/>
@@ -108,38 +108,35 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="Návštěvník" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="540" y="420" width="30" height="60" as="geometry"/>
+                <mxCell id="22" value="Návštěvník" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="220" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="Přihlásit se jako uživatel" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="640" y="350" width="110" height="70" as="geometry"/>
+                <mxCell id="23" value="Přihlásit se jako uživatel" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="150" width="110" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="Zaregistrovat se jako uživatel" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="640" y="430" width="110" height="70" as="geometry"/>
+                <mxCell id="24" value="Zaregistrovat se jako uživatel" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="230" width="110" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="23">
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="23" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="610" y="380" as="targetPoint"/>
-                        <mxPoint x="570" y="430" as="sourcePoint"/>
+                        <mxPoint x="590" y="180" as="targetPoint"/>
+                        <mxPoint x="550" y="230" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1">
+                <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="640" y="465" as="targetPoint"/>
-                        <mxPoint x="570" y="465" as="sourcePoint"/>
+                        <mxPoint x="620" y="265" as="targetPoint"/>
+                        <mxPoint x="550" y="265" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="27" value="Vyhledávat ve výpisu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="27" value="Vyhledávat ve výpisu" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="70" y="40" width="110" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1">
+                <mxCell id="28" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="210" y="168" as="sourcePoint"/>
                         <mxPoint x="180" y="98" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="230" y="168"/>
-                            <mxPoint x="230" y="200"/>
-                            <mxPoint x="210" y="200"/>
                             <mxPoint x="210" y="98"/>
                         </Array>
                     </mxGeometry>
