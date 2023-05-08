@@ -89,6 +89,7 @@ This command will start the client.
 npm start
 ```
 You can customize the client with the server address in `source/frontend/package.json` in variable `proxy`.
+API is running on server `http://146.190.23.109:5000`.
 
 ## Backend usage
 This command will start the server. I recommend using virtual environment for python. See [venv](https://docs.python.org/3/library/venv.html)
