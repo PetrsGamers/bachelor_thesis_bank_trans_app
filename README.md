@@ -27,10 +27,10 @@ password: `Testovaci1*`
 `source/backend`
 
 ### Main files
-`server.py` - API and server.
-`model.py` - Model for AI.
-`static_analyze.py` - Rules for static categorization.
-`template_analyze.py` - Data extraction from statement.
+* `server.py` - API and server.
+* `model.py` - Model for AI.
+* `static_analyze.py` - Rules for static categorization.
+* `template_analyze.py` - Data extraction from statement.
 
 ## Frontend files
 
@@ -39,8 +39,19 @@ password: `Testovaci1*`
 
 ### Main files
 
-`App.js` - routing
-``
+* `App.js` - Routing.
+* `Graph.js` - Single graph for statement.
+* `Graphs.js` - Multiple graphs for years.
+* `Statements.js` - Table for statements.
+* `Transactions.js` - Table for transactions.
+* `Home.js` - Main screen.
+* `Login.js` - Form for sign in the user.
+* `Register.js` -  Form for the user registration.
+* `Statement.js` - Screen for the one specific statement.
+* `Upload.js` - Component for uploading the statement.
+* `useToken.js` - Component for client authentication.
+* `Profile.js` - Screen for editing user.
+* `NavBar.js` - Navigation bar in application.
 
 ## Thesis files
 
@@ -56,6 +67,7 @@ See the docs for installation
 * [*python 3.9*](https://www.python.org/downloads/release/python-390/)
 
 * [*pip*](https://pypi.org/project/pip/)
+* Web browser
 
 ## Frontend Installation 
 
@@ -83,7 +95,7 @@ This command will start the server. I recommend using virtual environment for py
 ```
 python3.9 server.py
 ```
-Make sure you have installed and configure the MariaDB/MySQL connector and database correctly on your machine. If you did not setup your database on your local machine you can use database server which is configured in `server.py`.
+Make sure you have installed and configure the MariaDB/MySQL connector and database correctly on your machine. If you did not setup your database on your local machine you can use database server which is configured in `server.py`. The first start can take a lot of time because of the big data model.
 
 ## Database usage
 In `server.py` you can create MariaDB on your localhost or connect to a database hosted on DigitalOcean.
